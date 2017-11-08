@@ -1,1 +1,4 @@
-var a == 1 + 80;
+
+function number(1, 80) {
+  return 1 + 80;
+}
