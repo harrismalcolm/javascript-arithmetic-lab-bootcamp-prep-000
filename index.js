@@ -17,5 +17,8 @@ function dec(a){
   return a - 1;
 }
 function makeInt(a){
-  return parseInt(a);
+  if ("a") {
+    return parseInt(a);
+} else {
+  return parseInt(a, 10);
 }
